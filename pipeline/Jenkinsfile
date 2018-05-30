@@ -4,5 +4,5 @@ node {
     stage 'deploy'
         sh "oc rollout latest dc/gitbook-centos-docker"
         //openshiftDeploy(deploymentConfig: 'dc/gitbook-centos-docker')
-    //HALLELUJAH
+    //123456789
 }
